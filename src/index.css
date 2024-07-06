@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.slick-slide > div {
+  margin: 0 10px;
+}
+
+
+:root {
+  --heading-h1: 60px;
+  --heading-h3: 44px;
+  --heading-h4: 28px;
+  --lg-text: 24px;
+  --md-text: 18px;
+  --sm-text: 15px;
+  --purple: #696BEB;
+  --blue : #5147DD;
+  --black: #111111;
+  --blue-violet: #E1E8FE;
+  --dark-blue : rgba(12, 12, 69, .99);
+  --grey: #71717A;
+  --light-grey: #6E7A91;
+  --dark-grey : #475467;
+  --green: #C9FFC4;
+  --pink: #FFCBC5;
+  --yellow: #F1F2A4;
+  --light-grayish-blue: #E9EAF0;
+  --green-shade: rgba(76, 175, 80, 1)
+  --purple-gradient : linear-gradient(180deg, #696BEB 0%, #5147DD 100%, #5147DD 100%);
+
+}
+
+
+.testimonials_container div:nth-child(1),
+.testimonials_container div:nth-child(6) {
+  background-color: var(--green);
+}
+
+.testimonials_container div:nth-child(2),
+.testimonials_container div:nth-child(4),
+.testimonials_container div:nth-child(9) {
+  background-color: #fff;
+}
+
+.testimonials_container div:nth-child(3),
+.testimonials_container div:nth-child(7) {
+  background-color: var(--blue-violet);
+}
+
+.testimonials_container div:nth-child(5) {
+  background-color: var(--pink);
+}
+
+.testimonials_container div:nth-child(8) {
+  background-color: var(--yellow);
+}
+
+
+.shadow {
+  box-shadow: 0px 4px 6px -2px #5147DD08;
+  box-shadow: 0px 12px 16px -4px #5147DD14;
+}
+
+.box_shadow{
+  box-shadow: 0px 4px 6px -1px #12121714;
+}
